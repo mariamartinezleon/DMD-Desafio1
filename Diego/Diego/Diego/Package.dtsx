@@ -11,8 +11,8 @@
   DTS:LocaleID="22538"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{84A969EE-5C98-4CF5-9643-D045251C271C}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{17F1A378-9A33-447A-B7F7-9E53E2280DE6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -219,6 +219,18 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-FGEHH4G.db_roaming_honduras]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B895FA32-09CF-43CF-8612-4B3593BC09D3}"
+      DTS:ObjectName="DESKTOP-FGEHH4G.db_roaming_honduras">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-FGEHH4G;Initial Catalog=db_roaming_honduras;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-FGEHH4G.Diego.sa]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{48858E2C-46FB-446A-A69F-7CE242CC6B4E}"
@@ -231,7 +243,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADApPgn6xaCFHj51Ru3iSuQjIG9xvLBQWbKDOslNAkD4QAAAAAOgAAAAAIAACAAAACFLcIt50m+2+zcFXsqDcISr4t4MmXo2nHo+RTWw9z52RAAAACLaOKYuJGzdKCEGE6IF77eQAAAAFxjK1kC78hOYeKPs6dYLEIUGkUN4hCLKMjBh15cVr0DRXGxHT+Um6GgjVcYVPKS1ojU8zMCxdmTl528hUVg5WA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADoxJs9YDq6CrDeI/UvmJXKPohZPzDnpFOVTd83wupzqQAAAAAOgAAAAAIAACAAAADtOVEv42SoObJlgVhWsOQmXYAIEFehL9yEkJ/BJyr44hAAAACnudpvIOR8rlGy6PL8KxovQAAAAGFboMEgPj9Bx42ioIpzy7h1x7PuZzHfNaSw+nUWZBW7+Jc32bt5KSfu2CEoyHqk4xCrrLAw6gejfNA2XZSWOz4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -248,7 +260,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACfod954qqMbvB+1+uCgTwFpULUrMWLzHS0MDgIHTYFsQAAAAAOgAAAAAIAACAAAAA58bl68N2QbAy6zucN2oEWf0vsjOK366TtjIwh0vBSWxAAAAArGjrUNLtwoYP/seGphUmMQAAAABaOkXPL0SiV+fxqZ0VQYcRk5CgeZ6g0d0f+AGNAOkpaXmPzsUq5B0MsSI2KAAUfp9YF0Odl4GSoeCqLnfjDv1s</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/78Syq1UOCE6t90uuMcMK8kCTg3uc/caqIKKGgtQsjwAAAAAOgAAAAAIAACAAAAASXKSWtgYLUTickMRHjw8fh0XhnNSmzA/Vn3N8uBBelBAAAAD+sovi10qhPFnMzMrVizkpQAAAAPF6SK0H+sjYXkxioHt72BU0AgX88yY6JG6trEIrC16H1DAftOZAYVGs7B5D+fV34YsqrJdcTRRioY2IuwuLf5o</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -265,7 +277,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD7rpb6mk8gGFvWmkJ/+CX/N6nx30POnr3RudhfEXYDqwAAAAAOgAAAAAIAACAAAADhbTtWDgWHm5F/pkA0N74WuZIyljQsLpkZ47cryA4z6RAAAAAJh7Jp77h2owJCnrOF3Ow9QAAAAOe52MN5EN21IRhmQ5QgxJgCQTfrDpSwblUDR/DZoGolgNbuKDqrUHUinUctnRRUyWViiYUt+H6Ako088huvrys</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsVCnGxp+IE6mnElQYMcmBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACK8G0DWjhsOSBuo/9+ej6v2MOd2gfhbWkeLcWerSxupgAAAAAOgAAAAAIAACAAAAAIe/SHRkTB6Uvgy9SlZnr8e9Dc/14ry9iA00bmp+REGBAAAADf1+3NszufhPK/N13zHHCnQAAAAIOe1e1AEwxevY5462kdgiAZgmHR6MfXKy3p+mIcVq2Oot6j9/AW/K1EhrMqaIzpCOnInjyHgDpCR1wJXDWyqQI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -452,7 +464,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
-                  name="OpenRowset">[Spa]</property>
+                  name="OpenRowset">[spa]</property>
                 <property
                   dataType="System.String"
                   description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
@@ -495,8 +507,8 @@
               <connections>
                 <connection
                   refId="Package\Tarea Flujo de datos\Destino de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FGEHH4G.Diego.sa 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FGEHH4G.Diego.sa 2]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-FGEHH4G.db_roaming_honduras]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-FGEHH4G.db_roaming_honduras]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -2190,9 +2202,17 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="200,41.6"
+          Id="Package\Tarea Flujo de datos\Origen de archivo plano 2"
+          TopLeft="550.500008770398,89.0294125154357" />
+        <NodeLayout
+          Size="144.8,41.6"
+          Id="Package\Tarea Flujo de datos\Unión de todo"
+          TopLeft="337.642862799217,224.164789929281" />
+        <NodeLayout
           Size="190.4,41.6"
           Id="Package\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="89.7857157210915,90.3823541316194" />
+          TopLeft="91.9285729004413,91.147060024697" />
         <NodeLayout
           Size="168,41.6"
           Id="Package\Tarea Flujo de datos\Destino de OLE DB"
@@ -2202,65 +2222,23 @@
           Id="Package\Tarea Flujo de datos\Origen de archivo plano 1"
           TopLeft="310.500005194119,91.1470600246971" />
         <NodeLayout
-          Size="200,41.6"
-          Id="Package\Tarea Flujo de datos\Origen de archivo plano 2"
-          TopLeft="550.500008770398,89.0294125154357" />
-        <NodeLayout
-          Size="144.8,41.6"
-          Id="Package\Tarea Flujo de datos\Unión de todo"
-          TopLeft="337.642862799217,224.164789929281" />
-        <NodeLayout
           Size="163.2,41.6"
           Id="Package\Tarea Flujo de datos\Columna derivada"
           TopLeft="332.642862714067,303.636588829935" />
         <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="184.985715721091,131.982354131619">
+          Id="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
+          TopLeft="412.142862756642,265.764789929281">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="190.857147078125,92.1824357976619"
+              EndConnector="0,37.871798900654"
               Start="0,0"
-              End="190.857147078125,84.6824357976619">
+              End="0,30.371798900654">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56.3436559832796" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,56.3436559832796"
-                    Point2="0,60.3436559832796"
-                    Point3="4,60.3436559832796" />
-                  <mssgle:LineSegment
-                    End="186.857147078125,60.3436559832796" />
-                  <mssgle:CubicBezierSegment
-                    Point1="186.857147078125,60.3436559832796"
-                    Point2="190.857147078125,60.3436559832796"
-                    Point3="190.857147078125,64.3436559832796" />
-                  <mssgle:LineSegment
-                    End="190.857147078125,84.6824357976619" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano1]"
-          TopLeft="410.271433996668,132.747060024697">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,91.4177299045843"
-              Start="0,0"
-              End="0,83.9177299045843">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,83.9177299045843" />
+                    End="0,30.371798900654" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2304,19 +2282,53 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de Unión de todo 1]"
-          TopLeft="412.142862756642,265.764789929281">
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano1]"
+          TopLeft="410.271433996668,132.747060024697">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.871798900654"
+              EndConnector="0,91.4177299045843"
               Start="0,0"
-              End="0,30.371798900654">
+              End="0,83.9177299045843">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.371798900654" />
+                    End="0,83.9177299045843" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+          TopLeft="187.128572900441,132.747060024697">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="188.714289898776,91.417729904584"
+              Start="0,0"
+              End="188.714289898776,83.917729904584">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,55.8430709321146" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,55.8430709321146"
+                    Point2="0,59.8430709321146"
+                    Point3="4,59.8430709321146" />
+                  <mssgle:LineSegment
+                    End="184.714289898776,59.8430709321146" />
+                  <mssgle:CubicBezierSegment
+                    Point1="184.714289898776,59.8430709321146"
+                    Point2="188.714289898776,59.8430709321146"
+                    Point3="188.714289898776,63.8430709321146" />
+                  <mssgle:LineSegment
+                    End="188.714289898776,83.917729904584" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2331,14 +2343,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,64.9692987781145"
+              EndConnector="0,64.9692987781149"
               Start="0,0"
-              End="0,57.4692987781145">
+              End="0,57.4692987781149">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.4692987781145" />
+                    End="0,57.4692987781149" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
